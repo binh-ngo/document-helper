@@ -7,6 +7,7 @@ import pinecone
 from dotenv import load_dotenv
 from consts import INDEX_NAME
 from typing import Any
+
 load_dotenv()
 # Initialize pinecone client
 pinecone.init(
@@ -29,5 +30,6 @@ def run_llm(query: str) -> Any:
     )
     return qa({"query": query})
 
+
 if __name__ == "__main__":
-  print(run_llm(query="What is Langchain?"))
+    print(run_llm(query="What is Langchain?"))
