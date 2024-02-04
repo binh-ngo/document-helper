@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ad6ad645d673f031f8850fb698017ce365af7b0c674c9b5c34bb772f17b6b6cc"
+            "sha256": "60aa1dab8713c8f031d4367a05397971acc7a9dc5635ae27158d9efb29de5b48"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -363,12 +363,12 @@
         },
         "fastapi": {
             "hashes": [
-                "sha256:8c77515984cd8e8cfeb58364f8cc7a28f0692088475e2614f7bf03275eba9093",
-                "sha256:b978095b9ee01a5cf49b19f4bc1ac9b8ca83aa076e770ef8fd9af09a2b88d191"
+                "sha256:510042044906b17b6d9149135d90886ade170bf615efcfb5533f568ae6d88534",
+                "sha256:5402389843a3561918634eb327e86b9ae98645a9e7696bede9074449c48d610a"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.8'",
-            "version": "==0.109.0"
+            "version": "==0.109.1"
         },
         "filetype": {
             "hashes": [
@@ -1025,12 +1025,12 @@
         },
         "openai": {
             "hashes": [
-                "sha256:208886cb501b930dc63f48d51db9c15e5380380f80516d07332adad67c9f1053",
-                "sha256:aa69e97d0223ace9835fbf9c997abe9ee95318f684fd2de6d02c870700c71ebc"
+                "sha256:05abd618db093be1d2a16d3281136c163ddf57d7fe8fdf82c8b1edda6099c0b0",
+                "sha256:52bc4881efd04a548998c7bdcbfe234f642ce2817ce64cd207d0caccaf0b50ad"
             ],
             "index": "pypi",
             "markers": "python_full_version >= '3.7.1'",
-            "version": "==1.10.0"
+            "version": "==1.11.0"
         },
         "packaging": {
             "hashes": [
@@ -1082,6 +1082,14 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==0.12.1"
+        },
+        "pexpect": {
+            "hashes": [
+                "sha256:7236d1e080e4936be2dc3e326cec0af72acf9212a7e1d060210e70a47e253523",
+                "sha256:ee7d41123f3c9911050ea2c2dac107568dc43b2d3b0c7557a33212c398ead30f"
+            ],
+            "index": "pypi",
+            "version": "==4.9.0"
         },
         "pillow": {
             "hashes": [
@@ -1190,6 +1198,13 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==4.25.2"
+        },
+        "ptyprocess": {
+            "hashes": [
+                "sha256:4b41f3967fce3af57cc7e94b888626c18bf37a083e3651ca8feeb66d492fef35",
+                "sha256:5c5d0a3b48ceee0b48485e0c26037c0acd7d29765ca3fbb5cb3831d347423220"
+            ],
+            "version": "==0.7.0"
         },
         "pyarrow": {
             "hashes": [
